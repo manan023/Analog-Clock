@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Using Pure JS</title>
+    <style></style>
+    <link rel="stylesheet" href="Analog Style.css">
+    <script src="Analog js.js"></script>
+</head>
+<body>
+                <!-- FORMULA USE IN JAVA SCRIPT -->
+
+    <!-- For Hour Hand = 12 hrs - 360 degree
+                    1 hrs - 360/12 = 30 degree
+
+                   @for h hours  = 30h + m/2     {60 min - 30 degree
+                                                  1min - 1/2 degree
+                                                  for m minute = m/2 degree} -->
+    <!-- For Minute Hand = 60 min - 360 degree
+                           1 min - 6 degree
+                           @m min - 6m degree -->
+
+    <!-- For Second Hand = 60 sec - 360 degree
+                           1 sec - 6 degree
+                          @s sec - 6s degree -->
+
+
+
+
+
+        <!-- Start Analog clock  -->
+        <h1 id="heading">Simple Analog Clock</h1>
+        <div id = "clockcontainer">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+        </div>
+</body>
+</html>
